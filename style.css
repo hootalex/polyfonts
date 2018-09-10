@@ -239,7 +239,7 @@ margin: auto;
 font-size: 6vw;
 }
 
-.intro, .top, .copy, .rus {
+.intro, .top, .copy, .rus { 
 font-family: "12fps1";
 padding: 4vw;
 outline: none;
