@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'Clam Shack';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FClamShack-Regular.woff2?1536450909171') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FClamShack-Regular.woff?1536450909309') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Nicholson Gothic';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Regular.woff2?1536427155486') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Regular.woff?1536427154714') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Nicholson Gothic Heavy';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Bold.woff2?1536247202184') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Bold.woff?1536247201319') format('woff'); /* Pretty Modern Browsers */
+}
+
+b {
+font-family: "Nicholson Gothic Heavy";
+}
+
+@font-face {
+  font-family: 'Giles';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FLakeGiles.woff2?1536095310576') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FLakeGiles.woff?1536095310092') format('woff'); /* Pretty Modern Browsers */
+}
+
+
+@font-face {
+  font-family: '12fps1';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-1.woff2?1535766470051') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-1.woff?1535766468704') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: '12fps2';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-2.woff2?1535766478612') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-2.woff?1535766476940') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: '12fps3';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-3.woff2?1535766485490') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-3.woff?1535766483826') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: '12fps4';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-4.woff2?1535766494502') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-4.woff?1535766492670') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: '12fps5';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-5.woff2?1535766501801') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FAnitypeRedwood-5.woff?1535766499947') format('woff'); /* Pretty Modern Browsers */
+}
+
+body {
+margin: 0px;
+background-color: white;
+color: black;
+margin-bottom: 100px;
+ -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes spin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+
+#logo {
+width: 130px;
+animation: spin 20s infinite linear;
+padding: 20px;
+}
+
+.top, .rus {
+font-size: 60px;
+max-width: 600px;
+}
+
+@keyframes alert {
+  0%   { opacity: 0; }
+  5%   { opacity: 0; }
+  7%   { opacity: 1; }
+  80%   { opacity: 1; }
+  100% { opacity: 0; pointer-events: none;}
+}
+
+.colorselect {
+position: fixed;
+bottom: 20px;
+right: 10px;
+height: 10px;
+text-align: center;
+}
+
+.red {
+background-color: #EF3A30;
+color: white;
+}
+
+.yellow {
+background-color: #E5A040;
+color: white;
+}
+
+.green {
+color: #9FD08A;
+background-color: #465B3B;
+}
+
+.blue {
+background-color: #1C237A;
+color: #E4DECD;;
+}
+
+.purple {
+color: #F2A1AC;
+background-color: #2E2830;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+li:hover {
+cursor: pointer;
+}
+
+li {
+display: inline-block;
+padding: 0;
+list-style: none;
+background-color: black;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+}
+
+.show {
+display: block;
+}
+
+.clicktoedit {
+font-family: 'Nicholson Gothic';
+font-size: 20px;
+width: 170px;
+text-align: center;
+background-color: black;
+color: white;
+position: fixed;
+top: 10px;
+right: 10px;
+padding: 10px;
+box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.27);
+animation-name: alert;
+animation-duration: 6s;
+animation-fill-mode: forwards;
+
+}
+
+h1 {
+font-family: "Nicholson Gothic";
+font-weight: normal;
+font-size: 22px;
+text-align: center;
+padding-top: 40px;
+margin: 0;
+}
+
+p {
+border-bottom: 1px solid rgba(0,0,0,.2);
+width: 60vw;
+margin: auto;
+}
+
+.dark {
+background-color: black;
+color: white;
+}
+
+.darkline {
+border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+a {
+text-decoration: none;
+background-color: black;
+padding: 10px;
+margin: 5px;
+color: white;
+display: inline-block;
+}
+
+a:hover {
+opacity: .5;
+}
+
+.clamshack {
+font-family: "Clam Shack";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+font-size: 5vw;
+max-width: 70vw;
+}
+
+.giles {
+font-family: "Giles";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+font-size: 30px;
+max-width: 600px;
+}
+
+.gilestop {
+font-family: "Giles";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+font-size: 6vw;
+}
+
+.intro, .top, .copy, .rus {
+font-family: "12fps1";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+}
+
+.fps1 {
+  font-family: "12fps1";
+}
+
+.fps2 {
+  font-family: "12fps2";
+}
+
+.fps3 {
+  font-family: "12fps3";
+}
+
+.fps4 {
+  font-family: "12fps4";
+}
+
+.fps5 {
+  font-family: "12fps5";
+}
+
+.intro {
+font-size: 13vw;
+}
+
+.copy {
+font-size: 3vw;
+font-family: "12fps1";
+}
+
+.alert {
+color: crimson;
+font-size: 3vw;
+}
+
+
+
+@keyframes fontani {
+  0%   { font-family: "12fps1"; }
+  20%  { font-family: "12fps2"; }
+  40%  { font-family: "12fps3"; }
+  60%  { font-family: "12fps4"; }
+  80%  { font-family: "12fps5"; }
+  100%  { font-family: "12fps1"; }
+}
+
+.hello {
+font-family: "Nicholson Gothic";
+font-size: 23px;
+position: fixed;
+top: 20px;
+left: 20px;
+border: 1px solid gray;
+padding-top: 10px;
+padding-bottom: 5px;
+width: 100px;
+transition: .5s;
+color: gray;
+box-sizing: border-box;
+}
+
+.theme {
+font-size: 30px;
+position: fixed;
+bottom: 0px;
+left: 10px;
+}
+
+.theme:hover, li:hover {
+opacity: .7;
+cursor: pointer;
+}
+.hello:hover {
+width: 50vw;
+color: black;
+background-color: white;
+}
+
+footer {
+font-size: 22px;
+font-family: "Nicholson Gothic";
+text-align: center;
+}
+
+footer p {
+font-family: "Nicholson Gothic";
+font-size: 20px;
+outline: none;
+padding-top: 30px;
+padding-bottom: 30px;
+max-width: 600px;
+text-align: center;
+}
+
+.nicholsonhead {
+font-family: "Nicholson Gothic";
+font-size: 6vw;
+outline: none;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.nicholsonpara {
+font-family: "Nicholson Gothic";
+font-size: 20px;
+outline: none;
+text-align: left;
+padding-top: 30px;
+padding-bottom: 30px;
+max-width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+
+p, body {
+width: 90%;
+margin: auto;
+  }
+.hello {
+display: none;
+  }
+}
