@@ -1,4 +1,18 @@
 @font-face {
+  font-family: 'Moonrise Fill';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FMoonrise-Fill.woff2?1536632656728') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FMoonrise-Fill.woff?1536632656541') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Moonrise Alternate';
+src:
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FMoonrise-Alternate.woff2?1536632656317') format('woff2'), /* Super Modern Browsers */
+       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FMoonrise-Alternate.woff?1536632656869') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
   font-family: 'Clam Shack';
 src:
        url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FClamShack-Regular.woff2?1536450909171') format('woff2'), /* Super Modern Browsers */
@@ -246,6 +260,41 @@ outline: none;
 text-align: center;
 margin: auto;
 }
+
+.wrapper {
+width: 90vw;
+margin: auto;
+text-align: center;
+  }
+.moonrisefill {
+font-family: 'Moonrise Fill';
+font-size: 8vw;
+position: absolute;
+pointer-events: none;
+color: #206be5;
+outline: none;
+text-align: center;
+width: 90vw;
+margin: auto;
+line-height: 7.5vw;
+z-index: -1;
+padding-bottom: 40px;
+padding-top: 30px;
+opacity: .5;
+
+  }
+.moonrisealt {
+font-family: 'Moonrise Alternate';
+font-size: 8vw;
+z-index: 9999;
+outline: none;
+text-align: center;
+width: 90vw;
+margin: auto;
+line-height: 7.5vw;
+padding-bottom: 40px;
+padding-top: 30px;
+  }
 
 .fps1 {
   font-family: "12fps1";

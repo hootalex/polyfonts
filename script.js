@@ -60,3 +60,9 @@ $(function() {
     $('body').attr('class', 'purple');
   });
 });
+
+$(document).ready(function(){
+    $(".moonrisealt").keyup(function(){
+        $(".moonrisefill").html($(this).html());
+    });
+});
