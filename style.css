@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'Yellowstone';
+src:
+       url('font/Yellowstone-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/Yellowstone-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+
+@font-face {
   font-family: 'Moonrise Fill';
 src:
        url('font/Moonrise-Fill.woff2') format('woff2'), /* Super Modern Browsers */
@@ -226,6 +234,16 @@ opacity: .5;
 
 .clamshack {
 font-family: "Clam Shack";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+font-size: 5vw;
+max-width: 70vw;
+}
+
+.yellowstone {
+font-family: "Yellowstone";
 padding: 4vw;
 outline: none;
 text-align: center;
