@@ -30,15 +30,15 @@ src:
 @font-face {
   font-family: 'Nicholson Gothic';
 src:
-       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Regular.woff2?1536427155486') format('woff2'), /* Super Modern Browsers */
-       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Regular.woff?1536427154714') format('woff'); /* Pretty Modern Browsers */
+       url('fonts/NicholsonGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/NicholsonGothic-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Nicholson Gothic Heavy';
 src:
-       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Bold.woff2?1536247202184') format('woff2'), /* Super Modern Browsers */
-       url('https://cdn.glitch.com/cd8e4580-26b0-4d3d-b569-2f4baf4b8990%2FNicholsonGothic-Bold.woff?1536247201319') format('woff'); /* Pretty Modern Browsers */
+       url('fonts/NicholsonGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/NicholsonGothic-Bold.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 b {
