@@ -30,15 +30,15 @@ src:
 @font-face {
   font-family: 'Nicholson Gothic';
 src:
-       url('fonts/NicholsonGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/NicholsonGothic-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/NicholsonGothic-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/NicholsonGothic-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Nicholson Gothic Heavy';
 src:
-       url('fonts/NicholsonGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/NicholsonGothic-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/NicholsonGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/NicholsonGothic-Bold.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 b {
