@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Yellowstone';
+  font-family: 'Spindle Refined';
 src:
        url('font/SpindleRefined-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('font/SpindleRefined-Regular.woff') format('woff'); /* Pretty Modern Browsers */
@@ -242,8 +242,8 @@ font-size: 5vw;
 max-width: 70vw;
 }
 
-.yellowstone {
-font-family: "Yellowstone";
+.Spindle Refined {
+font-family: "Spindle Refined";
 padding: 4vw;
 outline: none;
 text-align: center;
