@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Yellowstone';
 src:
-       url('font/Yellowstone-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/Yellowstone-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/SpindleRefined-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/SpindleRefined-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 
