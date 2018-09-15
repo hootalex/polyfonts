@@ -1,4 +1,39 @@
 @font-face {
+  font-family: 'Casual1';
+src:
+       url('font/AnitypeCasual-1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeCasual-1.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Casual2';
+src:
+       url('font/AnitypeCasual-2.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeCasual-2.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Casual3';
+src:
+       url('font/AnitypeCasual-3.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeCasual-3.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Casual4';
+src:
+       url('font/AnitypeCasual-4.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeCasual-4.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Casual5';
+src:
+       url('font/AnitypeCasual-5.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeCasual-5.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
   font-family: 'Spindle Refined';
 src:
        url('font/SpindleRefined-Regular.woff2') format('woff2'), /* Super Modern Browsers */
@@ -279,6 +314,15 @@ text-align: center;
 margin: auto;
 }
 
+.casual {
+  font-size: 60px;
+font-family: "Casual1";
+padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+}
+
 .wrapper {
 width: 90vw;
 margin: auto;
@@ -331,6 +375,26 @@ border: 0;
 
 .fps5 {
   font-family: "12fps5";
+}
+
+.casual1 {
+  font-family: "Casual1";
+}
+
+.casual2 {
+  font-family: "Casual2";
+}
+
+.casual3 {
+  font-family: "Casual3";
+}
+
+.casual4 {
+  font-family: "Casual4";
+}
+
+.casual5 {
+  font-family: "Casual5";
 }
 
 .intro {

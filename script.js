@@ -22,6 +22,24 @@ var backgroundClasses = ['fps1', 'fps2', 'fps3', 'fps4', 'fps5'];
 
 })();
 
+var backgroundClasses2 = ['casual1', 'casual2', 'casual3', 'casual4', 'casual5'];
+
+(function changeBackground2() {
+	var nOfBackgrounds = backgroundClasses2.length;
+	var i=0;
+
+	setInterval(function() {
+  	console.log("value of i=" + i);
+    console.log("class removed: " + backgroundClasses2[i]);
+		$('.casual').removeClass(backgroundClasses2[i]);
+		var newClass = (i+1) % nOfBackgrounds;
+		$('.casual').addClass(backgroundClasses2[newClass]);
+		i = newClass;
+    console.log("class added: " + backgroundClasses2[i]);
+	}, 100);
+
+})();
+
 $(function() {
   $(".theme").click(function() {
     $('body').toggleClass("dark");
