@@ -80,6 +80,11 @@ b {
 font-family: "Nicholson Gothic Heavy";
 }
 
+form, table {
+  margin: auto;
+  text-align: center;
+}
+
 @font-face {
   font-family: 'Giles';
 src:
