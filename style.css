@@ -89,6 +89,13 @@ form, table {
   padding-top: 17px;
 }
 
+.cat1 {
+  transition: .5s;
+}
+.cat1:hover {
+  transform: scale(2.3);
+}
+
 @font-face {
   font-family: 'Giles';
 src:
