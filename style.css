@@ -333,7 +333,8 @@ margin: auto;
 .casual {
   font-size: 30px;
 font-family: "Casual1";
-padding: 4vw;
+padding: 2vw;
+max-width: 600px;
 outline: none;
 text-align: center;
 margin: auto;
