@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Casual1';
 src:
-       url('font/AnitypeCasual-1.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/AnitypeCasual-1.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/AnitypeJournal-1.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeJournal-1.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Casual2';
 src:
-       url('font/AnitypeCasual-2.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/AnitypeCasual-2.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/AnitypeJournal-2.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeJournal-2.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Casual3';
 src:
-       url('font/AnitypeCasual-3.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/AnitypeCasual-3.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/AnitypeJournal-3.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeJournal-3.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Casual4';
 src:
-       url('font/AnitypeCasual-4.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/AnitypeCasual-4.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/AnitypeJournal-4.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeJournal-4.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: 'Casual5';
 src:
-       url('font/AnitypeCasual-5.woff2') format('woff2'), /* Super Modern Browsers */
-       url('font/AnitypeCasual-5.woff') format('woff'); /* Pretty Modern Browsers */
+       url('font/AnitypeJournal-5.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/AnitypeJournal-5.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
