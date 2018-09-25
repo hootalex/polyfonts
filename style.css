@@ -85,6 +85,77 @@ form, table {
   text-align: center;
 }
 
+.download {
+  background-color: gainsboro;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.26);
+  transition: .1s;
+}
+
+.download:hover {
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.26);
+}
+
+.download:active {
+opacity: .5;
+}
+
+.soliciting {
+  color: black!important;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 320px;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.26);
+  opacity: 0;
+  pointer-events: none;
+  transition: .5s;
+  background-color: lightyellow;
+}
+
+.show {
+  opacity: 1!important;
+  pointer-events: all!important;
+}
+
+#close {
+  cursor: pointer;
+}
+
+#close {
+  float: right;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+}
+
+input {
+  font-size: 20px;
+  width: 50px;
+}
+
+#payment {
+  color: white;
+  text-decoration: none;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#payment:hover {
+  opacity: .8;
+}
 /* .download {
   padding: 20px;
   text-align: center;
@@ -176,6 +247,11 @@ margin-bottom: 100px;
  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Nicholson Gothic";
+}
+
+.header {
+  width: 100%;
+  text-align: right;
 }
 
 @keyframes spin {
@@ -300,7 +376,7 @@ color: white;
 border-bottom: 1px solid rgba(255,255,255,.2);
 }
 
-a {
+.email {
 text-decoration: none;
 background-color: black;
 padding: 10px;
@@ -309,7 +385,7 @@ color: white;
 display: inline-block;
 }
 
-a:hover {
+.email:hover {
 opacity: .5;
 }
 
