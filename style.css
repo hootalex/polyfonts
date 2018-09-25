@@ -121,6 +121,11 @@ opacity: .5;
   background-color: lightyellow;
 }
 
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+
 .show {
   opacity: 1!important;
   pointer-events: all!important;
