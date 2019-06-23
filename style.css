@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'Whirly Birdie';
+src:
+       url('font/WhirlyBirdie-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/WhirlyBirdie-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+
+@font-face {
   font-family: 'Casual1';
 src:
        url('font/AnitypeJournal-1.woff2') format('woff2'), /* Super Modern Browsers */
@@ -397,6 +405,17 @@ opacity: .5;
 .clamshack {
 font-family: "Clam Shack";
 padding: 4vw;
+outline: none;
+text-align: center;
+margin: auto;
+font-size: 5vw;
+max-width: 70vw;
+}
+
+.whirlybirdie {
+font-family: "Whirly Birdie";
+padding: 4vw;
+padding-top: 1vw;
 outline: none;
 text-align: center;
 margin: auto;
