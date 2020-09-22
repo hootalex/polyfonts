@@ -94,6 +94,8 @@ form, table {
 }
 
 .download {
+  opacity: .3;
+  pointer-events: none;
   background-color: gainsboro;
   color: black;
   text-decoration: none;
